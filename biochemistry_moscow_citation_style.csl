@@ -22,13 +22,13 @@
     </layout>
   </citation>
 
-  <bibliography et-al-min="6" et-al-use-first="5" hanging-indent="true">
+  <bibliography et-al-min="6" et-al-use-first="5" hanging-indent="false">
     <sort>
       <key variable="citation-number"/>
     </sort>
     <layout>
-      <text variable="citation-number" suffix=".&#x200B;"/>
-      <group prefix="  ">
+      <text variable="citation-number" suffix=". " font-family="Times New Roman"/>
+      <group font-family="Times New Roman">
         <names variable="author">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
           <et-al term="et-al" font-style="italic"/>
@@ -40,7 +40,7 @@
         <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
         <group prefix=" ">
           <text variable="volume" font-weight="bold"/>
-          <text variable="page" prefix=" ,"/>
+          <text variable="page" prefix=", "/>
         </group>
       </group>
     </layout>
