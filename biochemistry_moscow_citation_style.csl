@@ -22,25 +22,26 @@
     </layout>
   </citation>
 
-  <bibliography et-al-min="6" et-al-use-first="5">
+  <bibliography et-al-min="6" et-al-use-first="5" hanging-indent="true">
     <sort>
       <key variable="citation-number"/>
     </sort>
     <layout>
       <text variable="citation-number" suffix=".&#x200B;"/>
       <group prefix="  ">
-      <names variable="author">
-        <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
-        <et-al term="et-al" font-style="italic"/>
-      </names>
-      <date variable="issued" prefix=" (" suffix=")">
-        <date-part name="year"/>
-      </date>
-      <text variable="title" prefix=" " suffix=", "/>
-      <text variable="container-title" font-style="italic" suffix=", "/>
-      <group prefix=" ">
-        <text variable="volume" font-weight="bold" suffix=", "/> 
-        <text variable="page"/>
+        <names variable="author">
+          <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
+          <et-al term="et-al" font-style="italic"/>
+        </names>
+        <date variable="issued" prefix=" (" suffix=")">
+          <date-part name="year"/>
+        </date>
+        <text variable="title" prefix=" " suffix=", "/>
+        <text variable="container-title" font-style="italic" suffix=", "/>
+        <group prefix=" ">
+          <text variable="volume" font-weight="bold" suffix=", "/>
+          <text variable="page"/>
+        </group>
       </group>
     </layout>
   </bibliography>
