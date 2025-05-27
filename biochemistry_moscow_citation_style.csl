@@ -27,7 +27,7 @@
       <key variable="citation-number"/>
     </sort>
     <layout>
-      <text variable="citation-number" suffix=". " font-family="Times New Roman"/>
+      <text variable="citation-number" suffix=".&#x200B;" font-family="Times New Roman"/>
       <group font-family="Times New Roman">
         <names variable="author">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
