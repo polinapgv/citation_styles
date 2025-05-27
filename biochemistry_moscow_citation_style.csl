@@ -31,7 +31,6 @@
       <group font-family="Times New Roman">
         <names variable="author">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
-          <et-al term="et-al" font-style="italic"/>
         </names>
         <date variable="issued" prefix=" (" suffix=")">
           <date-part name="year"/>
