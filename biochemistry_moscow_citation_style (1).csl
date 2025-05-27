@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US">
   <info>
-    <title>Biochemistry Moscow Style</title>
-    <id>http://www.zotero.org/styles/custom-biochemistry-moscow-style</id>
+    <title>Biochemistry Moscow Style (Full Authors)</title>
+    <id>http://www.zotero.org/styles/biochemistry-moscow-full-authors</id>
     <link href="http://www.example.com" rel="template"/>
     <author>
       <name>Polina Pugacheva</name>
@@ -27,20 +27,18 @@
       <key variable="citation-number"/>
     </sort>
     <layout>
-      <text variable="citation-number" suffix=".&#x200B;" font-family="Times New Roman"/>
-      <group font-family="Times New Roman">
-        <names variable="author">
-          <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
-        </names>
-        <date variable="issued" prefix=" (" suffix=")">
-          <date-part name="year"/>
-        </date>
-        <text variable="title" prefix=" " suffix=","/>
-        <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
-        <group prefix=" ">
-          <text variable="volume" font-weight="bold"/>
-          <text variable="page" prefix=", "/>
-        </group>
+      <text variable="citation-number" suffix=".&#x200B;"/>
+      <names variable="author">
+        <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
+      </names>
+      <date variable="issued" prefix=" (" suffix=")">
+        <date-part name="year"/>
+      </date>
+      <text variable="title" prefix=" " suffix=","/>
+      <text variable="container-title" font-style="italic" prefix=" " suffix=","/>
+      <group prefix=" ">
+        <text variable="volume" font-weight="bold"/>
+        <text variable="page" prefix=", "/>
       </group>
     </layout>
   </bibliography>
