@@ -22,7 +22,7 @@
     </layout>
   </citation>
 
-  <bibliography et-al-min="6" et-al-use-first="5" hanging-indent="false">
+  <bibliography hanging-indent="false">
     <sort>
       <key variable="citation-number"/>
     </sort>
