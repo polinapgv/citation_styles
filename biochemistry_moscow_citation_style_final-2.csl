@@ -22,12 +22,12 @@
     </layout>
   </citation>
 
-<bibliography hanging-indent="false" entry-spacing="0">
+<bibliography hanging-indent="true" entry-spacing="0">
     <sort>
       <key variable="citation-number"/>
     </sort>
     <layout>
-      <group prefix="&#9;" suffix=""> <!-- Табуляция для всего абзаца -->
+      <group prefix="&#9;" suffix="">
         <text variable="citation-number" suffix=". "/>
         <names variable="author">
           <name and="text" delimiter=", " initialize-with=". " delimiter-precedes-last="always"/>
